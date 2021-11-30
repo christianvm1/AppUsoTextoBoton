@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import campotextoboton.CampoTextoBoton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="587.0" spacing="15.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusotextoboton.AppUsoTextoBotonController">
+   <children>
+      <CampoTextoBoton fx:id="campoTextoBoton1" buttonText="Grabar" onAction="#mostrarTexto1" />
+      <CampoTextoBoton fx:id="campoTextoBoton2" buttonText="Grabar" onAction="#mostrarTexto2" />
+      <Label fx:id="texto" text="Pulsa botón y muestra texto en esta etiqueta">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets left="10.0" top="10.0" />
+   </padding>
+</VBox>
